@@ -42,7 +42,7 @@ function getUserSize(){
     let message = document.querySelector("#message");
     if (userInput === ""){
         message.innerHTML = "Please provide a number";
-    } else if(userInput < 0||userInput > 100){
+    } else if(userInput < 2||userInput > 100){
         message.innerHTML = "Please enter a number between 0 and 100";
     } else {
         message.innerHTML = "Now you can play!"
