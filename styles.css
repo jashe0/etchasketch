@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 350px;
+    width: 400px;
     justify-content: space-around;
     margin-bottom: 20px;
 }
@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 350px;
+    width: 500px;
     align-items: center;
     margin-top: 20px;
 }
