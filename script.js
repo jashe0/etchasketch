@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded",function(){
 
 function createBoard(size){
     let board = document.querySelector(".board");
-     
+
     board.style.gridTemplateColumns = `repeat(${size},1fr)`;
     board.style.gridTemplateRows = `repeat(${size},1fr)`;
 
@@ -38,10 +38,11 @@ function getUserSize(){
 }
 
 function colorDiv(){
-    if (color == "random"){
-        this.style.backgroundColour = `hsl(${Math.random() * 360}, 100%, 50%)`
-    } else {
-        this.style.backgroundColour = 'black'
+    if(color == "random"){
+        this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`
+    }
+    else{
+        this.style.backgroundColor = 'black'
     }
 }
 
